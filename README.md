@@ -38,7 +38,7 @@ proxy.txt - list of HTTP/HTTPS proxies (optional)
 
 🚀 Usage
 
-python3 grab.py -u <URL> [options]
+python3 dumper.py -u <URL> [options]
 
 📌 Options:
 
@@ -58,11 +58,11 @@ Option	Description
 
 # Download all JPG and PNG files using 10 threads
 
-python3 grab.py -u https://example.com/files/ -t 10 --ext jpg,png
+python3 dumper.py -u https://example.com/files/ -t 10 --ext jpg,png
 
 # Use a proxy list and enable firewall bypass
 
-python3 grab.py -u https://target.com/storage/ -t 5 -p proxy.txt -w --ext all
+python3 dumper.py -u https://target.com/storage/ -t 5 -p proxy.txt -w --ext all
 
 🔒 Firewall Bypass Mode
 
