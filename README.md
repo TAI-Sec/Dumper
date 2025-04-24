@@ -21,15 +21,15 @@ This is a **multi-threaded file downloader** built in Python for recursively gra
 
 ## ⚙️ Installation
 
-sudo apt update
-sudo apt install python3 python3-pip -y
-pip3 install requests tqdm beautifulsoup4 colorama
+$ sudo apt update
+$ sudo apt install python3 python3-pip -y
+$ pip3 install requests tqdm beautifulsoup4 colorama
 
 📁 Setup
 Clone or Download the Script:
 
-git clone https://github.com/yourusername/file-grabber
-cd file-grabber
+$ git clone https://github.com/yourusername/file-grabber
+$ cd file-grabber
 Prepare Optional Files:
 
 proxy.txt - list of HTTP/HTTPS proxies (optional)
