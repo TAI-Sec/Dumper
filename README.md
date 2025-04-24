@@ -1,4 +1,4 @@
-# 🔥 Multi-threaded Files Grabber
+# 🔥 Dumper A Multi-threaded Files Grabber
 
 This is a **multi-threaded file downloader** built in Python for recursively grabbing media or file URLs from directory listing pages or known file storage endpoints. 
 
@@ -10,14 +10,7 @@ This is a **multi-threaded file downloader** built in Python for recursively gra
 ## 📦 Features
 
 ## 📦 Features
-- Multi-threaded (1–100 bots)
-- Domain-based folder organization
-- Proxy & User-Agent rotation support
-- Color-coded HTTP status and live file info
-- Supports all file types: images, videos, docs, archives, etc.
-- Optional zipping of downloads
-- Log file of successful downloads
-- ✅ Multi-threaded downloading
+- ✅ Multi-threaded (1–100 bots)
 - ✅ Optional **firewall bypass** headers (`-w`)
 - ✅ Proxy & user-agent rotation support
 - ✅ Extension filtering (`jpg`, `png`, `pdf`, etc. or `all`)
@@ -25,11 +18,9 @@ This is a **multi-threaded file downloader** built in Python for recursively gra
 - ✅ Auto domain-folder based download saving
 - ✅ Saves logs of successful downloads in `log.txt`
 
----
 
 ## ⚙️ Installation
 
-```bash
 sudo apt update
 sudo apt install python3 python3-pip -y
 pip3 install requests tqdm beautifulsoup4 colorama
@@ -37,22 +28,16 @@ pip3 install requests tqdm beautifulsoup4 colorama
 📁 Setup
 Clone or Download the Script:
 
-bash
-Copy
-Edit
 git clone https://github.com/yourusername/file-grabber
 cd file-grabber
 Prepare Optional Files:
 
-useragent.txt - list of user agents, one per line
-
 proxy.txt - list of HTTP/HTTPS proxies (optional)
 
 🚀 Usage
-bash
-Copy
-Edit
+
 python3 grab.py -u <URL> [options]
+
 📌 Options:
 
 Option	Description
@@ -62,9 +47,6 @@ Option	Description
 --ext	Extensions to download (comma-separated or all)
 -w, --firewall	Enable firewall bypass headers
 💡 Examples:
-bash
-Copy
-Edit
 # Download all JPG and PNG files using 10 threads
 python3 grab.py -u https://example.com/files/ -t 10 --ext jpg,png
 
@@ -107,4 +89,4 @@ Customized & enhanced for real-world use.
 This tool is for educational and authorized use only.
 You are responsible for your own actions.
 
-Tesdted ok...🔥🧪
+Tested ok...🔥🧪
