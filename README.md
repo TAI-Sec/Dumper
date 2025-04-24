@@ -26,8 +26,10 @@ $ pip3 install requests tqdm beautifulsoup4 colorama
 📁 Setup
 Clone or Download the Script:
 
-$ git clone https://github.com/yourusername/file-grabber
-$ cd file-grabber
+$ git clone https://github.com/TAI-Sec/Dumper.git
+
+$ cd Dumper
+
 Prepare Optional Files:
 
 proxy.txt - list of HTTP/HTTPS proxies (optional)
