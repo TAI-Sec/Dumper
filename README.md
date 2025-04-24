@@ -41,18 +41,29 @@ python3 grab.py -u <URL> [options]
 📌 Options:
 
 Option	Description
+
 -u, --url	Base URL to grab files from (required)
+
 -t, --threads	Number of threads to use (default: 10)
+
 -p, --proxy	Path to proxy list file (optional)
+
 --ext	Extensions to download (comma-separated or all)
+
 -w, --firewall	Enable firewall bypass headers
+
 💡 Examples:
+
 # Download all JPG and PNG files using 10 threads
+
 python3 grab.py -u https://example.com/files/ -t 10 --ext jpg,png
 
 # Use a proxy list and enable firewall bypass
+
 python3 grab.py -u https://target.com/storage/ -t 5 -p proxy.txt -w --ext all
+
 🔒 Firewall Bypass Mode
+
 Enable with -w to send spoofed headers:
 
 X-Forwarded-For
@@ -82,7 +93,7 @@ Use proxy + user-agent rotation for stealth.
 Firewall bypass is basic header injection, not advanced evasion.
 
 👨‍💻 Author
-Script by YOU
+Script by JORD4N
 Customized & enhanced for real-world use.
 
 📜 License
