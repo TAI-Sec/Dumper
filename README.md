@@ -8,8 +8,6 @@ This is a **multi-threaded file downloader** built in Python for recursively gra
 ---
 
 ## 📦 Features
-
-## 📦 Features
 - ✅ Multi-threaded (1–100 bots)
 - ✅ Optional **firewall bypass** headers (`-w`)
 - ✅ Proxy & user-agent rotation support
